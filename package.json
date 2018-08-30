@@ -1,0 +1,27 @@
+{
+  "name": "managed_wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wp:install": "sudo gulp install:wp",
+    "setup:apache": "sudo gulp make-apache-config",
+    "setup:nginx": "sudo gulp make-apache-config"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "gulp-file": "^0.4.0",
+    "gulp-unzip": "^1.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-remote-src": "^0.4.3",
+    "run-sequence": "^2.2.1"
+  }
+}
